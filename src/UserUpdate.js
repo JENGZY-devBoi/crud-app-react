@@ -5,7 +5,6 @@ import Container from '@mui/material/Container';
 import { Button, Grid, Typography } from '@mui/material';
 import TextField from '@mui/material/TextField';
 
-
 export default function UserUpdate() {
     const { id } = useParams();
     const [fname, setFname] = useState('');
